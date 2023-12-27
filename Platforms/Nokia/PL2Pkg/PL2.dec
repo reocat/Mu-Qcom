@@ -1,0 +1,11 @@
+[Defines]
+  DEC_SPECIFICATION                   = 0x00010005
+  PACKAGE_NAME                        = PL2
+  PACKAGE_GUID                        = e1b8bba5-9ab7-493d-9899-a0d3b2b1a8e2
+  PACKAGE_VERSION                     = 0.1
+
+[Includes.common]
+  Include                               # Root include for the package
+
+[Guids.common]
+  gPL2TokenSpaceGuid                 = { 0xe1b8bba5, 0x9ab7, 0x493d, { 0x98, 0x99, 0xa0, 0xd3, 0xb2, 0xb1, 0xa8, 0xe2 } }
